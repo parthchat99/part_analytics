@@ -1,0 +1,218 @@
+[
+    {
+      "item_description": "Item 1",
+      "item_id": "ASDE-1",
+      "ABC": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 8
+    },
+    {
+      "item_description": "Item 2",
+      "item_id": "ASDE-2",
+      "ABC": 0,
+      "XXDE-1": 0,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 8
+    },
+    {
+      "item_description": "Item 3",
+      "item_id": "ASDE-3",
+      "ABC": 0,
+      "DEF": 2,
+      "XXDE-1": 0,
+      "XXDR-3": 3,
+      "YTG-7": 2
+    },
+    {
+      "item_description": "Item 4",
+      "item_id": "ASDE-4",
+      "ABC": 0,
+      "BHYT-76": 8,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "XXDE-1": 4
+    },
+    {
+      "item_description": "Item 5",
+      "item_id": "ASDE-5",
+      "ABC": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 6",
+      "item_id": "ASDE-6",
+      "ABC": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 7",
+      "item_id": "ASDE-7",
+      "BHYT-76": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 8",
+      "item_id": "ASDE-8",
+      "BHYT-76": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 808
+    },
+    {
+      "item_description": "Item 9",
+      "item_id": "ASDE-9",
+      "ABC": 0,
+      "BHYT-76": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 96
+    },
+    {
+      "item_description": "Item 10",
+      "item_id": "ASDE-10",
+      "ABC": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDE-1": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 11",
+      "item_id": "ASDE-11",
+      "BHYT-76": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDE-1": 3,
+      "YTG-7": 8
+    },
+    {
+      "item_description": "Item 12",
+      "item_id": "ASDE-12",
+      "ABC": 6,
+      "DEF": 5,
+      "XXDE-1": 0,
+      "XXDR-3": 3,
+      "YTG-7": 8
+    },
+    {
+      "item_description": "Item 13",
+      "item_id": "ASDE-13",
+      "ABC": 6,
+      "DEF": 20,
+      "BHYT-76": 0,
+      "XXDR-3": 3,
+      "YTG-7": 8
+    },
+    {
+      "item_description": "Item 14",
+      "item_id": "ASDE-14",
+      "ABC": 6,
+      "DEF": 0,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "BHYT-76": 81
+    },
+    {
+      "item_description": "Item 15",
+      "item_id": "ASDE-15",
+      "ABC": 6,
+      "DEF": 0,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 50
+    },
+    {
+      "item_description": "Item 16",
+      "item_id": "ASDE-16",
+      "ABC": 6,
+      "DEF": 8,
+      "XXDE-1": 0,
+      "XXDR-3": 3,
+      "BHYT-76": 30
+    },
+    {
+      "item_description": "Item 17",
+      "item_id": "ASDE-17",
+      "BHYT-76": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 8
+    },
+    {
+      "item_description": "Item 18",
+      "item_id": "ASDE-18",
+      "ABC": 2,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 19",
+      "item_id": "ASDE-19",
+      "ABC": 2,
+      "BHYT-76": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 20",
+      "item_id": "ASDE-20",
+      "ABC": 90,
+      "BHYT-76": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 21",
+      "item_id": "ASDE-21",
+      "ABC": 90,
+      "DEF": 2,
+      "BHYT-76": 0,
+      "XXDR-3": 3,
+      "YTG-7": 5
+    },
+    {
+      "item_description": "Item 22",
+      "item_id": "ASDE-22",
+      "ABC": 1,
+      "DEF": 2,
+      "BHYT-76": 0,
+      "XXDR-3": 3,
+      "YTG-7": 5
+    },
+    {
+      "item_description": "Item 23",
+      "item_id": "ASDE-23",
+      "BHYT-76": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    },
+    {
+      "item_description": "Item 24",
+      "item_id": "ASDE-24",
+      "BHYT-76": 0,
+      "DEF": 2,
+      "1234.8": 0,
+      "XXDR-3": 3,
+      "YTG-7": 0
+    }
+  ]

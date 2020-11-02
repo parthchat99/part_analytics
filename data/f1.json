@@ -1,0 +1,56 @@
+[
+    {
+      "group_no": "ABC",
+      "group_id": "ABC",
+      "group_usage": 45,
+      "group_version": "V1"
+    },
+    {
+      "group_no": "DEF",
+      "group_id": "DEF-23",
+      "group_usage": 945,
+      "group_version": "V1"
+    },
+    {
+      "group_no": "1234.8",
+      "group_id": "1234.8-LF",
+      "group_usage": 0,
+      "group_version": "V1"
+    },
+    {
+      "group_no": "XXDE-1",
+      "group_id": "XXDE",
+      "group_usage": 0,
+      "group_version": "V1"
+    },
+    {
+      "group_no": "XXDR-2",
+      "group_id": "XXDR",
+      "group_usage": 475,
+      "group_version": "V1"
+    },
+    {
+      "group_no": "XXDR-3",
+      "group_id": "XXDR-3",
+      "group_usage": 0,
+      "group_version": "V1"
+    },
+    {
+      "group_no": null,
+      "group_id": "YTG-1",
+      "group_usage": 10,
+      "group_version": "V1"
+    },
+    {
+      "group_no": null,
+      "group_id": "YTG-7",
+      "group_usage": 1,
+      "group_version": "V1"
+    },
+    {
+      "group_no": "BHYT-76",
+      "group_id": "ABC",
+      "group_usage": 6,
+      "group_version": "V1"
+    }
+  ]
