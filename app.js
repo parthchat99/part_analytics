@@ -20,9 +20,9 @@ const getUserDataFromFileTwo = () => {
 /* Read - GET method */
 app.get('/list', (req, res) => {
     
-    var result = [];
-    var newVal = [];
-    var jsonArray;
+    let result = [];
+    let newVal = [];
+    let jsonArray;
     const dataOne = getUserDataFromFileOne()
     const dataTwo = getUserDataFromFileTwo()
 
@@ -30,37 +30,45 @@ app.get('/list', (req, res) => {
     console.log("datatwo.length", dataTwo.length)
 
     // For Each for File 1
-    dataOne.forEach(element1 => {
-        jsonArray = {
-            groupNo: element1.group_no,
-            groupId: element1.group_id,
-            group_usage: element1.group_usage,
-            group_version: element1.group_version,
+    jsonArray = dataOne.map(element1 => {
+        let eachEl = {...element1, ...{ associated_items: []}};
+
+        if(eachEl.group_usage == 0) {
+            return;
         }
-        var newNum = "associated_items";
-        jsonArray[newNum] = newVal;        
 
-        dataTwo.forEach(element2 => {
+        eachEl.group_no = eachEl.group_no == null ? eachEl.group_id: eachEl.group_no;
 
-            var fetchedJson = element2
+        let associated_items = dataTwo.map(e => {
+            if( eachEl.group_no in e ) {
+                if(e[eachEl.group_no] > 0) {
+                    let a = {item_description: e.item_description, item_id: e.item_id, item_usage: e[eachEl.group_no]};
 
-            var jsonArray2 = {
-                item_description: element2.item_description,
-                item_id: element2.item_id
+                    return a;
+                } else {
+                    return null;
+                }
             }
-            var newNum2 = "item_usage";
-            var newVal2;
-            jsonArray2[newNum2] = newVal2;
+            // else if( eachEl.group_id in e ) {
+            //     if(e[eachEl.group_id] > 0) {
+            //         let a = {item_description: e.item_description, item_id: e.item_id, item_usage: e[eachEl.group_id]};
 
-            newVal.push(jsonArray2)
-        })
+            //         return a;
+            //     } else {
+            //         return null;
+            //     }
+            // }
+            else {
+                return null;
+            }
+        }).filter(e => !!e);
+
+        eachEl.associated_items = associated_items;
+        console.log('EACHEL: ',eachEl);
+        return eachEl;
     });
-    console.log('result', result)
 
-    
-    // Created response JSON
-    result.push(jsonArray);
-    res.send(result)
+    res.send(jsonArray.filter(e => !!e));
 })
 
 //configure the server port
